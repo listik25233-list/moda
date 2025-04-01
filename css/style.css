@@ -1,0 +1,312 @@
+/*all*/
+
+@media (max-width: 482px){
+    .content-section {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        max-width: 100%;
+        background-color:#121416;
+    }
+
+    .style-logo {
+        align-items: start;
+        font-size:50px;
+    }
+
+    .font-on-site {
+        font-weight: 400;
+        font-family: "Gilda Display";
+        color: #e8d8c9;
+        text-decoration: none;
+    }
+/*header*/
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .header-logo {
+        justify-content: start;
+    }
+    
+    .nav-style {
+        display: flex;
+        font-size: 25px;
+        gap: 45px;
+        padding-right: 10px;
+        padding-top: 52px;
+    }
+    /*main*/
+
+.main {
+    display: flex;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.main-word {
+    text-align: center;
+    max-width: 50px;
+    max-height: 541px;
+    font-size: 40px;
+    color: #e8d8c9;
+    margin-right: 78px;
+    margin-left: 80px;
+}
+
+.main-photo {
+    max-width: 400px;
+    max-height: 496px;
+    padding-top: 20px;
+}
+
+.main-block {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.main-catalog {
+    display: flex;
+    align-items: start;
+}
+
+.catalog-word {
+    font-size: 80px;
+    padding: 295px 100px 0  0 ;
+}
+
+.main-catalog-list {
+    padding-top: 79px;
+}
+
+.cards {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: start;
+}
+
+.card {
+    width: 120px;
+    height: 120px;
+    background-color: #2a2a2a;
+    border-radius: 81px;
+}
+
+.card-block {
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+}
+
+.title-card {
+    max-width: 50px;
+    font-size: 20px;
+    text-align: start;
+    text-transform: capitalize;
+    color: #e8d8c9;
+}
+
+.about-us {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 187px;
+}
+
+.about-us-word {
+    font-size: 48px;
+    text-align: start;
+    color: #e8d8c9;
+    padding-bottom: 134px;
+}
+
+.about-us-text {
+    max-width: 450px;
+    font-size: 28px;
+    text-align: start;
+    color: #e8d8c9;
+
+}
+
+.tg {
+    padding-top: 50px;
+    font-size: 56px;
+    text-align: start;
+    color: #e8d8c9;
+    padding-bottom: 134px;
+}
+
+.the-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 100px;
+}
+
+.line {
+    max-height: 1px;
+    max-width: 480px;
+}
+
+.make-by {
+    font-size: 30px;
+    text-align: start;
+}
+}
+
+@media (min-width:1200px) and (max-width:1920px){
+
+.content-section {
+    box-sizing: border-box;
+    max-width: 100%;
+    background-color:#121416;
+}
+
+.style-logo {
+    font-size: 71px;
+    text-align: center;
+}
+
+.font-on-site {
+    font-weight: 400;
+    font-family: "Gilda Display";
+    color: #e8d8c9;
+    text-decoration: none;
+}
+
+
+/*header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    margin: 30px 0 0 98px;
+}
+
+
+.nav-style {
+    display: flex;
+    font-size: 32px;
+    gap: 150px;
+    padding-right: 104px;
+    padding-top: 52px;
+}
+
+/*main*/
+
+.main {
+    padding-top: 182px;
+}
+
+.main-word {
+    max-width: 642px;
+    max-height: 541;
+    font-size: 150px;
+    text-align: right;
+    color: #e8d8c9;
+    margin-right: 78px;
+    margin-left: 80px;
+}
+
+.main-photo {
+    max-width: 995px;
+    max-height: 496px;
+    padding-top: 20px;
+}
+
+.main-block {
+    display: flex;
+}
+
+.main-catalog {
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-word {
+    font-size: 150px;
+    padding: 295px 100px 0  0 ;
+}
+
+.main-catalog-list {
+    padding-top: 79px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 121px;
+    justify-content: center;
+}
+
+.card {
+    width: 450px;
+    height: 450px;
+    background-color: #2a2a2a;
+    border-radius: 81px;
+}
+
+.card-block {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.title-card {
+max-width: 196px;
+font-size: 50px;
+text-align: center;
+text-transform: capitalize;
+color: #e8d8c9;
+}
+
+.about-us {
+    padding-top: 187px;
+}
+
+.about-us-word {
+    font-size: 96px;
+    text-align: center;
+    color: #e8d8c9;
+    padding-bottom: 134px;
+}
+
+.about-us-text {
+    font-size: 60px;
+    text-align: center;
+    color: #e8d8c9;
+    max-width: 1910px;
+}
+
+.tg {
+    padding-top: 50px;
+    font-size: 96px;
+    text-align: center;
+    color: #e8d8c9;
+    padding-bottom: 134px;
+}
+
+.the-line {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.line {
+    max-width: 1920px;
+}
+
+.make-by {
+    font-size: 60px;
+    text-align: center;
+}
+}
